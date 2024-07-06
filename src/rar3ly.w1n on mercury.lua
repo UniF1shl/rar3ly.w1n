@@ -14,10 +14,23 @@ local mTab = GUI:Tab{
 	Icon = "rbxassetid://8569322835"
 }
 
+mTab:Slider{
+	Name = "WalkSpeed",
+	Default = 16,
+	Min = 16,
+	Max = 512,
+	Callback = function(ws)     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = ws
+}
+
 --Un1versal
 
 local Un1Tab = GUI:Tab{
 	Name = "Un1versal",
+	Icon = "rbxassetid://8569322835"
+}
+
+local Tab = GUI:Tab{
+	Name = "Scr1pts",
 	Icon = "rbxassetid://8569322835"
 }
 
