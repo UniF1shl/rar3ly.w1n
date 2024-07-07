@@ -58,3 +58,5 @@ local DevTab = Window:MakeTab({
 local Section = DevTab:AddSection({
 	Name = "Dev Tools"
 })
+
+OrionLib:Init()
